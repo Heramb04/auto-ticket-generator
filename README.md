@@ -99,6 +99,3 @@ Ensure the following variables are set within the Jenkins Pipeline script or Glo
 
   * `JIRA_URL`: The base URL of your Jira instance (e.g., [https://your-domain.atlassian.net](https://your-domain.atlassian.net)).
   * `PROJECT_KEY`: The project key where tickets should be created (e.g., KAN, SCRUM).
-```
-
-**Next Step:** Would you like the **"Zero-to-Hero" Study Guide** now? This will be the PDF-style document you review before the interview to explain *why* you made these architectural choices.
