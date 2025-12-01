@@ -3,13 +3,10 @@ global:
 
 scrape_configs:
   - job_name: 'jenkins'
-    metrics_path: '/prometheus/'  # Jenkins exposes metrics here
+    metrics_path: '/prometheus/'
     static_configs:
-      - targets: ['host.docker.internal:8080'] 
-      # On Linux/Bazzite, 'host.docker.internal' might need a flag. 
-      # If this fails later, we will swap to your IP.
-  
+      - targets: ['localhost:8080']
+
   - job_name: 'docker'
-    # This watches the Docker engine itself (via cAdvisor - we will add this)
     static_configs:
-      - targets: ['cadvisor:8080']
+      - targets: ['localhost:8081']
