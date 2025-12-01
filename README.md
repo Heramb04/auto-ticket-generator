@@ -1,3 +1,4 @@
+
 # Automated Incident Management & DevOps Monitoring Pipeline
 
 This project implements a self-healing DevOps pipeline that integrates CI/CD automation, real-time infrastructure monitoring, and automated incident management. It demonstrates a closed-loop system where build failures or system anomalies automatically trigger ticket creation in Jira, reducing manual oversight and improving incident response times.
@@ -26,9 +27,25 @@ The system consists of three core pillars:
 
 ## Prerequisites
 
-  * Docker Engine (v20.10+)
-  * Docker Compose (v2.0+)
-  * A Jira Cloud account (for API integration)
+Before running this project, ensure your environment meets the following requirements:
+
+### System Requirements
+
+  * **Operating System:** Linux (Ubuntu/Fedora/CentOS) recommended, or macOS/Windows with WSL2.
+  * **Resources:** Minimum 4GB RAM (to run Jenkins, Grafana, and Prometheus simultaneously).
+
+### Software Dependencies
+
+  * **Docker Engine:** v20.10 or higher.
+  * **Docker Compose:** v2.0 or higher.
+  * **Git:** For cloning the repository.
+  * **Curl:** For API testing (optional but recommended).
+
+### Cloud Services & Credentials
+
+  * **Jira Cloud Account:** You need an active Jira workspace.
+  * **Jira API Token:** Required for authentication (Passwords are not supported for API calls).
+  * **Network Access:** Port 8080 (Jenkins), 3000 (Grafana), and 9090 (Prometheus) must be open on your local machine.
 
 ## Installation & Setup
 
