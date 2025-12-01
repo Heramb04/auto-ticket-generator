@@ -1,3 +1,7 @@
+<img width="1920" height="954" alt="image" src="https://github.com/user-attachments/assets/3a2779db-a54b-40a2-8252-83ad01e6240d" />
+
+
+<img width="1097" height="439" alt="image" src="https://github.com/user-attachments/assets/6b45fe67-9eec-4490-b2a1-bf8de381db17" />
 
 # Automated Incident Management & DevOps Monitoring Pipeline
 
